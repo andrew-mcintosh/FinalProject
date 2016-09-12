@@ -1,0 +1,27 @@
+
+
+<div class="home_page_image">
+	<div class="row img-responsive">
+ 
+  		 <h1 class="home_page_title">Hello, where would you like to go?!</h1>
+
+	  <div class="col-md-4 home_page_input_group">
+	    <div class="input_group">
+	    <form ng-submit="ctrl.findByCity(ctrl.search)">
+	      <input ng-model="ctrl.search" type="text" class="search form-control" placeholder="Enter City...">
+	      <span class="input-group-btn">
+	      <button ng-click="ctrl.findByCity(ctrl.search)" class="Go btn btn-default" type="button">Go!</button>
+	      </span>
+	    </form>
+	    </div>
+	 </div>
+
+	 	<div class="row img-responsive">
+	    	<div class="notFound" ng-show="ctrl.notFound"> 
+		    	<span>Sorry, like the Lost City of Atlantis, {{ctrl.search | firstLetterFilter}} couldn't be found!</span>
+				<button class="return_button" ng-click="ctrl.reloadPage()" type="button" class="btn btn-primary btn-sm btn-block">Try Again!</button>
+			</div>
+		</div>
+	 </div>
+</div>
+

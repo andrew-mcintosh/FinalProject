@@ -1,0 +1,138 @@
+.home_page_image {
+    background: #000 url(../images/HomePageImages/original.jpg) center center;
+    height: 1000px;
+    width: 100%;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    font-weight: bold;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.home_page_title {
+	font-size: 65px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	top: 150px;
+}
+
+.City_page_title {
+	font-size: 100px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	margin: 0px;
+	position: relative;
+	top: 150px;
+}
+
+.search {
+	width: 250px;
+	display: inline-block;
+}
+
+.input-group-btn {
+	display: inline-block;
+	position: relative;
+	bottom: 1px;
+}
+
+.home_page_input_group {
+	top: 70%;
+	left: 35%;
+	position: absolute;
+}
+
+.maps {
+	height: 300px;
+	width: 500px;
+	margin-top: 50px;
+	margin-left: 50px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: relative;
+}
+
+.map {
+	position: absolute;
+	display: none;
+	height: 100%;
+	width: 100%;
+	background: url();
+	background-size:cover;
+	background-position:center center;
+}
+
+.display_page_image {
+    background: center center;
+    height: 450px;
+    width: 100%;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.weathers {
+	height: 300px; 
+	width: 500px;
+	margin-top: 50px;
+	float: right;
+	right: 50px;
+	border: 3px solid black;
+	border-radius: 5px;
+	position: relative;
+}
+
+div .weather iframe {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.return_button {
+	width: 125px;
+	position: absolute;
+	bottom: 5px;
+	right: 30px;
+	background-color: #e6eeff;
+	color: black;
+	font-size: 15px;
+	border-radius: 5px
+}
+
+.notFound {
+	height: 75px;
+	width: 800px;
+	left: 25%;
+	bottom: 10%;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	background-color: #3374ff;
+	color: white;
+	font-size: 25px;
+	text-align: center;
+	border-radius: 8px;
+	opacity: 0.7;
+}
+
+.img-responsive div {
+	margin: 15px auto;
+}
+
+.row {
+	width: 100%;
+}
+
+.new_search_button {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	opacity: 0.7;
+}

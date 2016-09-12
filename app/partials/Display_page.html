@@ -1,0 +1,37 @@
+	<!-- <div style="background-image: url({{ctrl.city.Image}})" class="display_page_image">
+
+  		<h2 class="City_page_title">{{ctrl.city.City}}</h2>
+
+	</div>
+ -->
+ 	<div style="height:450px;width:100%">
+	 <div uib-carousel active="ctrl.active" interval="ctrl.myInterval" no-wrap="ctrl.noWrapSlides" style="height:inherit">
+      <div uib-slide ng-repeat="slide in ctrl.city.Images track by ctrl.city.Images.indexOf(slide)" index="ctrl.city.Images.indexOf(slide)">
+        <div style="background-image: url({{slide}})" class="display_page_image">
+        <h2 class="City_page_title">{{ctrl.city.City}}</h2>
+        </div>
+      </div>
+    </div>
+   </div>
+
+<div class="row">
+		<div class="col-lg-6 col-centered col-md-12 col-sm-12 col-xs-12">
+				<div id="maps" class="maps">
+					<div id="map" class="map"></div>
+				</div>
+		</div>
+
+		<div class="col-lg-6 col-centered col-md-12 col-sm-12 col-xs-12">
+			<div id="weathers" class="weathers">
+				<div id="weather" class="weather">
+					<iframe type="text/html" src={{ctrl.url}}> </iframe>
+				</div>
+			</div>
+        </div>
+</div>  
+
+<div class="new_search_button">
+	<button ng-click="ctrl.click()" type="button" class="btn btn-primary btn-lg btn-block">Return to Search</button>
+</div>
+          
+
