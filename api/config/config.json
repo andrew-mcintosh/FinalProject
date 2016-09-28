@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "postgres",
     "database": "traveldb",
-    "host": "127.0.0.1",
+    "host": "54.148.60.70",
     "dialect": "postgres"
   },
   "test": {
