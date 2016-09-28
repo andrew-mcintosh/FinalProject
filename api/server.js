@@ -5,9 +5,8 @@ var models = require('./models');
 var app = express();
 app.use(express.static(__dirname + './../app/'));
 
-app.listen(8080, function() {
-	console.log('Server Started  on http://localhost:8080');
-	console.log('Press CTRL + C to stop server');
+app.listen(80, function() {
+	console.log('Listening on Port 80, Stop with Ctrl+C');
 });
 
 //Routes
